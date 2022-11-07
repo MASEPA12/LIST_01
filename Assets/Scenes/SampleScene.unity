@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b60055845ada5946b42eb85be5abce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dayOfTheWeek: 5
 --- !u!65 &426491818
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -691,8 +692,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9999db5bad13ee4c9d15a42741b318e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  variable1: 5
-  variable2: 3
+  variable1: 1
+  variable2: 4
   variable3: 9
   result: 0
 --- !u!135 &873020845
@@ -1001,6 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aced21fc34ccc3046b1ffdbe9d53df9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  letter: i
 --- !u!65 &1253037362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1091,6 +1093,7 @@ GameObject:
   - component: {fileID: 1334917720}
   - component: {fileID: 1334917719}
   - component: {fileID: 1334917718}
+  - component: {fileID: 1334917722}
   m_Layer: 0
   m_Name: Exercise_05
   m_TagString: Untagged
@@ -1176,6 +1179,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334917722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334917717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef25f96ffc864b9d5062a6eb37e2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberA: 20
+  numberB: 10
 --- !u!1 &1651915833
 GameObject:
   m_ObjectHideFlags: 0
