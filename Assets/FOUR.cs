@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class FOUR : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // VARIABLE DECLARATION
+    public int yearOfBirth;
+    public int actualYear;
+    private int playerAge;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log($"The year you born is {yearOfBirth} and now we are in {actualYear}."); 
+        playerAge = actualYear - yearOfBirth; //saving the the value of the person’s age
+        Debug.Log($"If we are in the year {actualYear} and you were born in {yearOfBirth}, you are {playerAge} years old.");
     }
 }
