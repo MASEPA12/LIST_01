@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class THREE : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //VARIABLE DECLARATION
+    public string name;
+    public int playerAge;
+
     void Start()
-    {
-        
+    {   //showing the message to the console 
+        Debug.Log($"“Hello, {name}! You are {playerAge} years old.");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+ }

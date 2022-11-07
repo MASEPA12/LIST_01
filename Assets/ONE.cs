@@ -14,6 +14,6 @@ public class ONE : MonoBehaviour
     void Start()
     {   //setting the value of "result" and showing it to console
         result = variable1 + variable2 + variable3;
-        Debug.Log($"The sum of {variable1}, {variable2} and {variable3} is {result}");
+        Debug.Log($"The sum of {variable1}, {variable2} and {variable3} is {result}.");
     }
 }

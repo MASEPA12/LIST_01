@@ -9,7 +9,7 @@ public class TWO : MonoBehaviour
     public string cityName;
     
     void Start()
-    {   //showing the message in the console
+    {   //showing the message to the console
         Debug.Log($"Hello, {name}! Welcome to {cityName}.");
     }
 }
