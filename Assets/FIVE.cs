@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class FIVE : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //VARIABLE DECLARATION
+    public int numberA;
+    public int numberB;
+
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if(numberA > numberB) //if A is greater than B it is going to execut the line I, and if is not, the line II
+        { //line I
+            Debug.Log($"{numberA} is grater than {numberB}.");
+        }
+        else
+        { //line II
+            Debug.Log($"{numberB} is grater than {numberA}.");
+        }
     }
 }

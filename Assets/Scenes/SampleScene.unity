@@ -155,6 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca3f62d03b81ae44a80d9d1c5e9aa58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  yearOfBirth: 2004
+  actualYear: 2022
 --- !u!135 &40685195
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -783,6 +785,7 @@ GameObject:
   - component: {fileID: 912166308}
   - component: {fileID: 912166307}
   - component: {fileID: 912166306}
+  - component: {fileID: 912166310}
   m_Layer: 0
   m_Name: Exercise_03
   m_TagString: Untagged
@@ -868,6 +871,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &912166310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912166305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 010c7107e1a01c84fb816e2da1d8cb08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Marina
+  playerAge: 17
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
