@@ -10,9 +10,9 @@ public class ONE : MonoBehaviour
     public float variable3 = 9;
     public float result;
 
-    // Start is called before the first frame update
+   
     void Start()
-    {
+    {   //setting the value of "result" and showing it to console
         result = variable1 + variable2 + variable3;
         Debug.Log($"The sum of {variable1}, {variable2} and {variable3} is {result}");
     }

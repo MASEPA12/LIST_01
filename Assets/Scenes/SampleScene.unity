@@ -689,6 +689,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9999db5bad13ee4c9d15a42741b318e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  variable1: 5
+  variable2: 3
+  variable3: 9
+  result: 0
 --- !u!135 &873020845
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1297,6 +1301,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82814cfc01b7c4d449045a3d42ccf9cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: Marina
+  cityName: Sa Pobla
 --- !u!135 &1921839679
 SphereCollider:
   m_ObjectHideFlags: 0

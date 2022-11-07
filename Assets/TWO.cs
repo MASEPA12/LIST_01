@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class TWO : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //VARIABLE DECLARATION
+    public string name;
+    public string cityName;
+    
     void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+    {   //showing the message in the console
+        Debug.Log($"Hello, {name}! Welcome to {cityName}.");
     }
 }
