@@ -267,6 +267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9101548035360f4ca71c5aca0439dd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numOfCandy: 80
+  numOfPeople: 7
 --- !u!65 &159120124
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -582,6 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369f6c198511dfe4db3336bb4e1670c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  month: December
 --- !u!65 &866112997
 BoxCollider:
   m_ObjectHideFlags: 0
